@@ -8,7 +8,7 @@ import pylibxc
 import math
 import sys
 
-if len(sys.argv) != 4:
+if len(sys.argv) != 6:
         print("Usage: python my_script.py molecule_name charge spin correlation exchange")
 
 
@@ -30,7 +30,7 @@ corr_f = input("Enter correlation functional: ")
 ex_f = input("Enter exchange functional: ")
 '''
 #path_to_xyz = dir_path+"/"+molecule_inp+".xyz"
-path_to_xyz = "/export/zimmerman/vkchem/python_try/G2RC/"+molecule_inp+"/struc.xyz"
+path_to_xyz = "/export/zimmerman/vkchem/python_try/G2RC/"+molecule_inp+"/struc.xyz" #directory where I have geometries on the cluster
 
 #Molecule input
 mol = gto.M(
