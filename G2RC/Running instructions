@@ -1,0 +1,3 @@
+Run run_SOGGA11_G2RC.sh. This should create a .txt file for each neutral singlet molecule in the G2RC dataset. The .txt file will have EVIs for all 6 conditions.
+If you want to use a different GGA functional, change the exchange and correlation functionals in run_SOGGA11_G2RC.sh. Extract all scores into a .csv file using extract_csv_G2RC.py.
+
